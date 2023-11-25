@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+html{
+  max-width: 100%;
+}
+
+body{
+  background-color: #A5BEFA;
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+
+.dragNow {
+    width: 120px;
+  }
+
+.action{
+  margin-top: 2rem;
+  margin-left: 10px;
+}
+#name-text{
+  background-color: #ffffff;
+  height: 30px;
+}
+#submit-button{
+  height: 3em;
+  background-color: #617899;
+  width: 4rem;
+  border-radius: 5px;
+  color: #FFFFFF
+}
+.table {
+    background-color: #FFF3C7;
+    height: 600px;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    width: 240px;
+  }
+  
+li {
+  margin: 1rem 1rem 1rem 0;
+  padding-left: 1px;
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  border-radius: 5px;
+  cursor: grab;
+  }
+.flex{
+  display: flex;
+}
+.image img{
+  margin-left: 3rem;
+  margin-top: 6px;
+  width: 1500px;
+  height: 800px;
+  border-radius: 1rem;
+}
+.situation1{
+  background-color: #FBE9EA;
+  height: 600px;
+  margin-left: 2rem;
+  width: 250px;
+  border-radius: 1rem;
+  margin-top: 7rem;
+  padding-top: 1rem;
+}
+
+.situation1 h2{
+  text-align: center;
+}
+/* 1/10 */
+@media screen and (max-width: 1200px) {
+  .image img{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    width: 700px;
+    border-radius: 1rem;  
+}
+.table {
+  background-color: #edfafd;
+  height: 615px;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  width:250px; 
+}
+.action{
+  margin-top: 20px;
+  margin-left: 1px;
+}
+#name-text{
+  background-color: #ffffff;
+  width: 170px;
+}
+.situation1{
+  position: absolute;
+  height: 190px;
+  margin-left: 19rem;
+  margin-top: 33rem;
+  width: 340px;
+}
+.situation2{
+  position: absolute;
+  height: 190px;
+  margin-left: 41rem;
+  margin-top: 33rem;
+  width: 340px;
+}
+}
